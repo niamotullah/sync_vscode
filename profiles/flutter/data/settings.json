@@ -12,11 +12,15 @@
         "uiState"
     ],
     "syncSettings.keybindingsPerPlatform": true,
-    "syncSettings.crons": {
-        // "review": "0 * * * *",      // every hour
-        "download": "0 8 * * *", // at 8AM, every day
-        "upload": "0 * * * *" // every hour
-    },
+
+    // todo: auto sync disabled till i find a relaiable way to sync
+    // issue: typing keys to sync everytime
+    //
+    // "syncSettings.crons": {
+    //     // "review": "0 * * * *",      // every hour
+    //     "download": "0 8 * * *", // at 8AM, every day
+    //     "upload": "0 * * * *" // every hour
+    // },
     "extensions.experimental.affinity": {
         "asvetliakov.vscode-neovim": 1
     },
@@ -33,4 +37,7 @@
     "workbench.colorTheme": "Catppuccin Macchiato",
     "workbench.iconTheme": "material-icon-theme",
     "terminal.integrated.defaultProfile.linux": "zsh",
+    "editor.fontSize": 12.5,
+    "git.openRepositoryInParentFolders": "never",
+    "dart.previewFlutterUiGuides": true,
 }
