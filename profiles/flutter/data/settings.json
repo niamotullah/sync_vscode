@@ -37,7 +37,9 @@
     "workbench.colorTheme": "Catppuccin Macchiato",
     "workbench.iconTheme": "material-icon-theme",
     "terminal.integrated.defaultProfile.linux": "zsh",
-    "editor.fontSize": 12.5,
     "git.openRepositoryInParentFolders": "never",
     "dart.previewFlutterUiGuides": true,
+    "editor.fontSize": 14.6,
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.inlayHints.enabled": "offUnlessPressed",
 }
