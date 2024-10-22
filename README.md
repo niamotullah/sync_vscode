@@ -1,14 +1,11 @@
 My goto settings for vscode and related editors setup
-# Profiles
-| branch   | profile       |
-| -------- | ------------- |
-| vscode   | flutter       |
+
 # Usage
 - install [Sync Settings](https://github.com/zokugun/vscode-sync-settings) extension
 - open command palette by pressing `ctrl+shift+p` and open `Sync Settings: Open the repository settings`
 - delete everything from file and paste below to sync from this repo:
 >>```yml
->>profile: flutter # see below for available profiles
+>>profile: flutter # see into 'profiles/' folder   
 >>
 >># sync on remote git
 >>repository:
@@ -24,8 +21,7 @@ My goto settings for vscode and related editors setup
 - run `Sync Settings: Download (repository -> user)`
 - it should ask for necessery github access pass-key if required
 
-To **save** your settings after modification, just run `Sync settings: Upload` from command palette. This will upload modified settings to the repo difined in `url:`
+To **save** your settings after modification, just run `Sync settings: Upload` from command palette. This will upload modified settings to the repo difined in `url` and `branch`
 
-
-
-
+### Todo
+- [ ] fix `cron tasks` auto sync without promting for the password everytime
