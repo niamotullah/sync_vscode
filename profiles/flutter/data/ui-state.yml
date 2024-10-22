@@ -3,10 +3,11 @@ workbench.activity.pinnedViewlets2: '[{"id":"workbench.view.explorer","pinned":t
 workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   \"themeIcon\":{\"id\":\"explorer-view-icon\"},\"name\":\"Explorer\",\"isBuilt\
   in\":true,\"views\":[{},{},{\"when\":\"timelineHasProvider\"},{\"when\":\"npm\
-  :showScriptExplorer\"}]},{\"id\":\"workbench.view.search\",\"themeIcon\":{\"id\
-  \":\"search-view-icon\"},\"name\":\"Search\",\"isBuiltin\":true,\"views\":[{}\
-  ]},{\"id\":\"workbench.view.scm\",\"themeIcon\":{\"id\":\"source-control-view\
-  -icon\"},\"name\":\"Source
+  :showScriptExplorer\"},{\"when\":\"config.dart.enablePub &&
+  dart-code:anyProjectLoaded\"}]},{\"id\":\"workbench.view.search\",\"themeIcon\
+  \":{\"id\":\"search-view-icon\"},\"name\":\"Search\",\"isBuiltin\":true,\"vie\
+  ws\":[{}]},{\"id\":\"workbench.view.scm\",\"themeIcon\":{\"id\":\"source-cont\
+  rol-view-icon\"},\"name\":\"Source
   Control\",\"isBuiltin\":true,\"views\":[{\"when\":\"scm.providerCount &&
   scm.providerCount != '0'\"},{},{\"when\":\"scm.providerCount &&
   scm.providerCount !=
@@ -56,9 +57,11 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   \"}]},{\"id\":\"workbench.view.extension.flutter\",\"iconUrl\":{\"$mid\":1,\"\
   path\":\"%%EXTENSION_DATA_PATH%%/dart-code.dart-code-3.98.1/media/icons/flutt\
   er_activity_bar.svg\",\"scheme\":\"file\"},\"name\":\"Flutter\",\"isBuiltin\"\
-  :false,\"views\":[]},{\"id\":\"workbench.panel.chatSidebar\",\"themeIcon\":{\
-  \"id\":\"comment-discussion\"},\"name\":\"Chat\",\"isBuiltin\":true,\"views\"\
-  :[{\"when\":\"chatExtensionInvalid ||
+  :false,\"views\":[{\"when\":\"dart-code:anyFlutterProjectLoaded &&
+  dart-code:flutterSidebarSupported\"},{\"when\":\"dart-code:anyFlutterProjectL\
+  oaded\"}]},{\"id\":\"workbench.panel.chatSidebar\",\"themeIcon\":{\"id\":\"co\
+  mment-discussion\"},\"name\":\"Chat\",\"isBuiltin\":true,\"views\":[{\"when\":\
+  \"chatExtensionInvalid ||
   chatPanelParticipantRegistered\"}]},{\"id\":\"workbench.view.sync\",\"themeIc\
   on\":{\"id\":\"settings-sync-view-icon\"},\"name\":\"Settings
   Sync\",\"isBuiltin\":true,\"views\":[{\"when\":\"enableSyncConflictsView &&
@@ -71,17 +74,16 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   'uninitialized'\"},{\"when\":\"enableSyncActivityViews\"},{\"when\":\"enableS\
   yncActivityViews\"}]},{\"id\":\"workbench.view.editSessions\",\"themeIcon\":{\
   \"id\":\"edit-sessions-view-icon\"},\"name\":\"Cloud
-  Changes\",\"isBuiltin\":true,\"views\":[{\"when\":\"editSessionsShowView\"}]}\
-  ]"
+  Changes\",\"isBuiltin\":true,\"views\":[]}]"
 workbench.activityBar.location: default
 workbench.auxiliarybar.pinnedPanels: '[{"id":"workbench.views.service.auxiliarybar.2565dba3-05b1-434c-8662-b921299603b2","pinned":true,"visible":false}]'
 workbench.auxiliarybar.placeholderPanels: '[{"id":"workbench.views.service.auxiliarybar.2565dba3-05b1-434c-8662-b921299603b2","themeIcon":{"id":"outline-view-icon"},"name":"Outline","isBuiltin":true,"views":[{}]}]'
 workbench.auxiliaryBar.size: "256"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["xml",true],["javascript",true],["typescript",true],["jsonc",true],["yaml",true],["plaintext",true],["dart",true],["rust",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["xml",true],["javascript",true],["typescript",true],["rust",true],["markdown",true],["jsonc",true],["yaml",true],["plaintext",true],["dart",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"npm","isHidden":true},{"id":"dartDependencyTree","isHidden":false}]'
 workbench.grid.size: '{"height":768,"width":1024}'
 workbench.panel.alignment: center
-workbench.panel.lastNonMaximizedHeight: "256"
+workbench.panel.lastNonMaximizedHeight: "266"
 workbench.panel.lastNonMaximizedWidth: "300"
 workbench.panel.markers.hidden: '[{"id":"workbench.panel.markers.view","isHidden":false}]'
 workbench.panel.output.hidden: '[{"id":"workbench.panel.output","isHidden":false}]'
@@ -91,7 +93,7 @@ workbench.panel.placeholderPanels: '[{"id":"workbench.panel.markers","themeIcon"
   Results","isBuiltin":true,"views":[{"when":"testing.hasAnyResults"}]},{"id":"terminal","themeIcon":{"id":"terminal-view-icon"},"name":"Terminal","isBuiltin":true,"views":[{}]},{"id":"~remote.forwardedPortsContainer","themeIcon":{"id":"ports-view-icon"},"name":"Ports","isBuiltin":true,"views":[{}]},{"id":"refactorPreview","themeIcon":{"id":"refactor-preview-view-icon"},"name":"Refactor
   Preview","isBuiltin":true,"views":[{"when":"refactorPreview.enabled"}]}]'
 workbench.panel.repl.hidden: '[{"id":"workbench.panel.repl.view","isHidden":false}]'
-workbench.panel.size: "255"
+workbench.panel.size: "266"
 workbench.scm.views.state.hidden: '[{"id":"workbench.scm.repositories","isHidden":true},{"id":"workbench.scm","isHidden":false},{"id":"workbench.scm.history","isHidden":false}]'
 workbench.sideBar.size: "229"
 workbench.telemetryOptOutShown: "true"
@@ -101,6 +103,6 @@ workbench.view.extension.test.state.hidden: '[{"id":"workbench.view.testing","is
 workbench.view.extensions.state.hidden: '[{"id":"workbench.views.extensions.installed","isHidden":false},{"id":"workbench.views.extensions.searchOutdated","isHidden":false},{"id":"workbench.views.extensions.workspaceRecommendations","isHidden":false},{"id":"workbench.views.extensions.popular","isHidden":false},{"id":"workbench.views.extensions.searchRecentlyUpdated","isHidden":false},{"id":"workbench.views.extensions.otherRecommendations","isHidden":false},{"id":"extensions.recommendedList","isHidden":false},{"id":"workbench.views.extensions.enabled","isHidden":true},{"id":"workbench.views.extensions.disabled","isHidden":true},{"id":"workbench.views.extensions.marketplace","isHidden":false},{"id":"workbench.views.extensions.searchInstalled","isHidden":false},{"id":"workbench.views.extensions.searchEnabled","isHidden":false},{"id":"workbench.views.extensions.searchDisabled","isHidden":false},{"id":"workbench.views.extensions.searchBuiltin","isHidden":false},{"id":"workbench.views.extensions.searchWorkspaceUnsupported","isHidden":false},{"id":"workbench.views.extensions.builtinFeatureExtensions","isHidden":false},{"id":"workbench.views.extensions.builtinThemeExtensions","isHidden":false},{"id":"workbench.views.extensions.builtinProgrammingLanguageExtensions","isHidden":false},{"id":"workbench.views.extensions.untrustedUnsupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.untrustedPartiallySupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.virtualUnsupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.virtualPartiallySupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.deprecatedExtensions","isHidden":false}]'
 workbench.view.remote.state.hidden: '[{"id":"targetsContainers","isHidden":false},{"id":"detailsContainers","isHidden":false},{"id":"devVolumes","isHidden":false}]'
 workbench.view.search.state.hidden: '[{"id":"workbench.view.search","isHidden":false}]'
-workbench.views.extensions.installed.size: "8"
+workbench.views.extensions.installed.size: "11"
 workbench.views.service.auxiliarybar.2565dba3-05b1-434c-8662-b921299603b2.state.hidden: '[{"id":"outline","isHidden":false}]'
 zokugun.cron-tasks: '{"version":"0.2.0"}'

@@ -34,12 +34,15 @@
         "editor.tabCompletion": "onlySnippets",
         "editor.wordBasedSuggestions": "off"
     },
-    "workbench.colorTheme": "Catppuccin Macchiato",
     "workbench.iconTheme": "material-icon-theme",
     "terminal.integrated.defaultProfile.linux": "zsh",
     "git.openRepositoryInParentFolders": "never",
     "dart.previewFlutterUiGuides": true,
-    "editor.fontSize": 14.6,
     "security.workspace.trust.untrustedFiles": "open",
     "editor.inlayHints.enabled": "offUnlessPressed",
+    "dart.debugExternalPackageLibraries": true,
+    "dart.debugSdkLibraries": false,
+    "editor.fontSize": 12.6,
+    "dart.warnWhenEditingFilesOutsideWorkspace": false,
+    "workbench.colorTheme": "Tokyo Night AltSynt",
 }
