@@ -74,12 +74,13 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   'uninitialized'\"},{\"when\":\"enableSyncActivityViews\"},{\"when\":\"enableS\
   yncActivityViews\"}]},{\"id\":\"workbench.view.editSessions\",\"themeIcon\":{\
   \"id\":\"edit-sessions-view-icon\"},\"name\":\"Cloud
-  Changes\",\"isBuiltin\":true,\"views\":[]}]"
+  Changes\",\"isBuiltin\":true,\"views\":[{\"when\":\"editSessionsShowView\"}]}\
+  ]"
 workbench.activityBar.location: default
 workbench.auxiliarybar.pinnedPanels: '[{"id":"workbench.views.service.auxiliarybar.2565dba3-05b1-434c-8662-b921299603b2","pinned":true,"visible":false}]'
 workbench.auxiliarybar.placeholderPanels: '[{"id":"workbench.views.service.auxiliarybar.2565dba3-05b1-434c-8662-b921299603b2","themeIcon":{"id":"outline-view-icon"},"name":"Outline","isBuiltin":true,"views":[{}]}]'
 workbench.auxiliaryBar.size: "256"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["xml",true],["javascript",true],["typescript",true],["rust",true],["markdown",true],["jsonc",true],["yaml",true],["plaintext",true],["dart",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["javascript",true],["typescript",true],["rust",true],["xml",true],["yaml",true],["markdown",true],["plaintext",true],["jsonc",true],["dart",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"npm","isHidden":true},{"id":"dartDependencyTree","isHidden":false}]'
 workbench.grid.size: '{"height":768,"width":1024}'
 workbench.panel.alignment: center
@@ -93,9 +94,9 @@ workbench.panel.placeholderPanels: '[{"id":"workbench.panel.markers","themeIcon"
   Results","isBuiltin":true,"views":[{"when":"testing.hasAnyResults"}]},{"id":"terminal","themeIcon":{"id":"terminal-view-icon"},"name":"Terminal","isBuiltin":true,"views":[{}]},{"id":"~remote.forwardedPortsContainer","themeIcon":{"id":"ports-view-icon"},"name":"Ports","isBuiltin":true,"views":[{}]},{"id":"refactorPreview","themeIcon":{"id":"refactor-preview-view-icon"},"name":"Refactor
   Preview","isBuiltin":true,"views":[{"when":"refactorPreview.enabled"}]}]'
 workbench.panel.repl.hidden: '[{"id":"workbench.panel.repl.view","isHidden":false}]'
-workbench.panel.size: "266"
+workbench.panel.size: "240"
 workbench.scm.views.state.hidden: '[{"id":"workbench.scm.repositories","isHidden":true},{"id":"workbench.scm","isHidden":false},{"id":"workbench.scm.history","isHidden":false}]'
-workbench.sideBar.size: "229"
+workbench.sideBar.size: "245"
 workbench.telemetryOptOutShown: "true"
 workbench.view.debug.state.hidden: '[{"id":"workbench.debug.welcome","isHidden":false},{"id":"workbench.debug.variablesView","isHidden":false},{"id":"workbench.debug.watchExpressionsView","isHidden":false},{"id":"workbench.debug.callStackView","isHidden":false},{"id":"workbench.debug.loadedScriptsView","isHidden":false},{"id":"workbench.debug.breakPointsView","isHidden":false},{"id":"jsBrowserBreakpoints","isHidden":false},{"id":"jsExcludedCallers","isHidden":false},{"id":"jsDebugNetworkTree","isHidden":false}]'
 workbench.view.extension.flutter.state.hidden: '[{"id":"dartFlutterSidebar","isHidden":false},{"id":"dartFlutterOutline","isHidden":false}]'
