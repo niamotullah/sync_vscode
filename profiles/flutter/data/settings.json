@@ -1,0 +1,48 @@
+{
+    // commit message used when initializing a new profile, optional (set to `profile({{profile}}): init -- {{now|date:iso}}` by default)
+    "syncSettings.gitInitMessage": "profile({{profile}}): init -- {{now|date:iso}}",
+    // commit message used when updating a profile, optional (set to `profile({{profile}}): update -- {{now|date:iso}}` by default)
+    "syncSettings.gitUpdateMessage": "profile({{profile}}): update -- {{now|date:iso}}",
+    "syncSettings.hostname": "{{hostname}}",
+    "syncSettings.resources": [
+        "extensions",
+        "keybindings",
+        "settings",
+        "snippets",
+        "uiState"
+    ],
+    "syncSettings.keybindingsPerPlatform": true,
+
+    // todo: auto sync disabled till i find a relaiable way to sync
+    // issue: typing keys to sync everytime
+    //
+    // "syncSettings.crons": {
+    //     // "review": "0 * * * *",      // every hour
+    //     "download": "0 8 * * *", // at 8AM, every day
+    //     "upload": "0 * * * *" // every hour
+    // },
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "git.openRepositoryInParentFolders": "never",
+    "dart.previewFlutterUiGuides": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.inlayHints.enabled": "offUnlessPressed",
+    "dart.debugExternalPackageLibraries": true,
+    "dart.debugSdkLibraries": false,
+    "editor.fontSize": 12.6,
+    "dart.warnWhenEditingFilesOutsideWorkspace": false,
+    "workbench.colorTheme": "Tokyo Night AltSynt",
+}
