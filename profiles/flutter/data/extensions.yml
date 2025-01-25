@@ -1,11 +1,11 @@
-disabled:
-  - id: asvetliakov.vscode-neovim
-    uuid: caf8995c-5426-4bf7-9d01-f7968ebd49bb
+disabled: []
 enabled:
   - id: AakashP.adb-qr
     uuid: 61702620-aab3-4d16-9afb-797c644d0982
   - id: aaron-bond.better-comments
     uuid: 7a0110bb-231a-4598-aa1b-0769ea46d28b
+  - id: asvetliakov.vscode-neovim
+    uuid: caf8995c-5426-4bf7-9d01-f7968ebd49bb
   - id: Avetis.tokyo-night
     uuid: 959bb51c-18f2-45de-acdc-18b2cf831b89
   - id: Dart-Code.dart-code
